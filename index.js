@@ -22,13 +22,10 @@ var currentLine = function(katzDeliLine) {
     return "The line is currently empty.";
   } else {
     let i = 0;
-    
-    if {
-     do {
-        finalString = finalString + `${i + 1}. ${katzDeliLine[i]}, `;
-        i++;
-     } while (i < katzDeliLine.length);
-    }
+    do {
+      finalString = finalString + `${i + 1}. ${katzDeliLine[i]}, `;
+      i++;
+    } while (i < katzDeliLine.length);
   }
   return finalString;
 };
