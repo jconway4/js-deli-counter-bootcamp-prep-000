@@ -24,6 +24,7 @@ var currentLine = function(katzDeliLine) {
     let i = 0;
     do {
       
+      i++;
     } while (i < katzDeliLine.length);
   }
 };
