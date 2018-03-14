@@ -16,12 +16,12 @@ var nowServing = function(katzDeliLine) {
 };
 
 var currentLine = function(katzDeliLine) {
+  let finalString = 'The line is currently: ';
   
   if (katzDeliLine.length === 0) {
     return "The line is currently empty.";
   } else {
     let i = 0;
-    let finalString = 'The line is currently: ';
     do {
       finalString = finalString + `, ${katzDeliLine.length}. ${katzDeliLine[i]}`;
       i++;
