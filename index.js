@@ -21,6 +21,7 @@ var currentLine = function(katzDeliLine) {
     return "The line is currently empty.";
   } else {
     let i = 0;
+    let finalString = '';
     do {
       
       i++;
