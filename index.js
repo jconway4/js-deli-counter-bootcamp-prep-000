@@ -27,4 +27,5 @@ var currentLine = function(katzDeliLine) {
       i++;
     } while (i < katzDeliLine.length);
   }
+  return finalString;
 };
