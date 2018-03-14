@@ -14,3 +14,7 @@ var nowServing = function(katzDeliLine) {
     return currentName;
   }
 };
+
+var currentLine = function(katzDeliLine) {
+  
+};
