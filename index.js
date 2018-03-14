@@ -1,3 +1,5 @@
-var katzDeli = [];
+var katzDeliLine = [];
 
-var takeANumber
+var takeANumber = function(katzDeliLine,name) {
+  
+}
