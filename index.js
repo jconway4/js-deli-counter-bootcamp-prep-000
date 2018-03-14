@@ -1,1 +1,3 @@
 var katzDeli = [];
+
+var takeANumber
