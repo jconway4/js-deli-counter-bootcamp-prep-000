@@ -23,6 +23,6 @@ var currentLine = function(katzDeliLine) {
   } else {
     do {
       
-    }
+    } while ();
   }
 };
