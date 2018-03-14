@@ -23,7 +23,7 @@ var currentLine = function(katzDeliLine) {
   } else {
     let i = 0;
     do {
-      finalString = finalString + `${i + 1}. ${katzDeliLine[i]}`;
+      finalString = finalString + `${i + 1}. ${katzDeliLine[i]}, `;
       i++;
     } while (i < katzDeliLine.length);
   }
