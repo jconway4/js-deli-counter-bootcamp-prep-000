@@ -25,7 +25,7 @@ var currentLine = function(katzDeliLine) {
     do {
       finalString = finalString + `${i + 1}. ${katzDeliLine[i]}, `;
       i++;
-    } while (i < katzDeliLine.length);
+    } while (i < katzDeliLine.length - 1);
   }
   return finalString;
 };
